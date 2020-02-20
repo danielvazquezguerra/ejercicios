@@ -1,0 +1,48 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.padre {
+    display: flex;
+    justify-content: space-around;
+    border: 5px solid black;
+    align-items: center;
+    height: 25vh;
+    margin-top: 3vh;
+    
+}
+
+.hijo {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    justify-content: center;
+    align-items: center;
+    font-size: 8px;
+    font-family: gotham;
+    font-weight: bolder;
+    color: white;
+}
+
+.amarillo {
+    background-color: yellow;
+}
+
+.verde {
+    background-color: green;
+}
+
+.naranja {
+    background-color: orange;
+}
+
+.azul {
+    background-color: blue;
+}
+
+.grid {
+    display: grid;
+}
